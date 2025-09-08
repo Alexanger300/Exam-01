@@ -1,0 +1,11 @@
+1)
+
+La fonction Surprise doit renvoyer le premier caractère et le dernier caractère de la chaine de caractère s,
+  Si la longueur s est inférieur à 1,cela renvoie "false" 
+
+2)
+
+La fonction surprise_annexe a pour argument une chaine de caractère byte et renvoie le caractère associé si celui-ci
+n'appartient pas au caractère "a" jusqu'à "z" et "A" et "Z",sinon ca renvoie rien
+Par exemple la chaine binaire "110001" renvoie 1
+Si on avait mis 1000001 ca aurait rien envoyé car il est associé à "A"
