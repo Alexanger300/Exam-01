@@ -1,7 +1,8 @@
 1)
 
-La fonction Surprise doit renvoyer le premier caractère et le dernier caractère de la chaine de caractère s,
-  Si la longueur s est inférieur à 1,cela renvoie "false" 
+La fonction Surprise doit renvoyer le premier caractère qui est associé dans surprise_annexe ou le dernier caractère de la chaine 
+de caractère s dans la fonction Surprise,
+Si la longueur s est inférieur à 1,cela renvoie "false" 
 
 2)
 

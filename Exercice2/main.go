@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-func CountLetters(s string) int { //Argument en string et qui renvoie un interger
-	var compteur int = 0          //On initie une variable compteur
-	for j := 0; j < len(s); j++ { //Boucle for allant de 0 jusqu'a la longueur de s
-		if s[j] >= 65 && s[j] <= 90 || s[j] >= 97 && s[j] <= 122 { //si j est entre 'a'  et 'z' ou j est entre 'A' et 'Z'
-			compteur += 1 //on augmente le compteur de 1
+func CountLetters(s string) int {
+	var compteur int = 0
+	for j := 0; j < len(s); j++ {
+		if s[j] >= 65 && s[j] <= 90 || s[j] >= 97 && s[j] <= 122 {
+			compteur += 1
 		}
 	}
 	return compteur
